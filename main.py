@@ -106,7 +106,7 @@ df = get_data(days, tickers)
 companies = st.multiselect(
     '会社名を選択してください。',
     list(df.index),
-    default=['google', 'amazon', 'facebook', 'apple']
+    default=['google', 'amazon', 'meta', 'apple']
 )
 
 if not companies:
